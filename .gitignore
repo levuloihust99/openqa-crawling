@@ -3,3 +3,4 @@
 website.txt
 __pycache__/
 /test/
+/.venv/

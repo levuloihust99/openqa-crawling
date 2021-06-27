@@ -1,11 +1,6 @@
 import re
 import string
 import unicodedata
-from typing import Dict, List, Tuple, Text, Optional
-import sqlite3
-from sqlite3 import Error
-
-SQLITE_DB = "resources.db"
 
 
 def remove_whitespaces(text):

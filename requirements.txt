@@ -1,0 +1,4 @@
+underthesea
+mysql-connector-python
+mysqlclient
+requests-html

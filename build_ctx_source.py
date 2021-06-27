@@ -7,8 +7,8 @@ import pandas as pd
 if __name__ == "__main__":
     config = {
         'user': 'levuloi',
-        'password': '9VINsmoke9',
-        'database': 'resources',
+        'password': 'openqathesis62021',
+        'database': 'context_source',
         'host': 'localhost',
         'raise_on_warnings': True,
         'auth_plugin': 'mysql_native_password'
@@ -68,4 +68,4 @@ if __name__ == "__main__":
     }
     df = pd.DataFrame(df_dict)
 
-    df.to_csv("data/vicovid_ctx_sources_V2.tsv", sep='\t', header=True, index=False)
+    df.to_csv("data/vicovid_ctx_sources.tsv", sep='\t', header=True, index=False)

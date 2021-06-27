@@ -1,7 +1,4 @@
-import sqlite3
 from underthesea import sent_tokenize
-import sqlite3
-from sqlite3 import Error
 from requests_html import HTMLSession
 import mysql.connector
 import re
